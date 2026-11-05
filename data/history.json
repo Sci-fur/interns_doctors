@@ -1,0 +1,83 @@
+{
+ "outdoor": [
+  {
+   "internId": "boideshika",
+   "date": "2026-09-26"
+  },
+  {
+   "internId": "rumi",
+   "date": "2026-09-27"
+  },
+  {
+   "internId": "abir",
+   "date": "2026-09-28"
+  },
+  {
+   "internId": "sneha",
+   "date": "2026-09-29"
+  },
+  {
+   "internId": "sumati",
+   "date": "2026-09-30"
+  },
+  {
+   "internId": "hasif",
+   "date": "2026-10-01"
+  },
+  {
+   "internId": "nusrat",
+   "date": "2026-10-03"
+  },
+  {
+   "internId": "tithi",
+   "date": "2026-10-04"
+  },
+  {
+   "internId": "sifat",
+   "date": "2026-10-05"
+  },
+  {
+   "internId": "ishrat",
+   "date": "2026-10-06"
+  },
+  {
+   "internId": "suma",
+   "date": "2026-10-07"
+  },
+  {
+   "internId": "saimaayub",
+   "date": "2026-10-08"
+  },
+  {
+   "internId": "mostari",
+   "date": "2026-10-10"
+  },
+  {
+   "internId": "nadia",
+   "date": "2026-10-11"
+  },
+  {
+   "internId": "arnab",
+   "date": "2026-10-12"
+  },
+  {
+   "internId": "prangon",
+   "date": "2026-10-13"
+  },
+  {
+   "internId": "sajjad",
+   "date": "2026-10-14"
+  },
+  {
+   "internId": "tina",
+   "date": "2026-10-15"
+  },
+  {
+   "internId": "fatema",
+   "date": "2026-10-17"
+  }
+ ],
+ "nights": [],
+ "balances": {},
+ "leaves": []
+}

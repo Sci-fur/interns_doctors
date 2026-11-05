@@ -1,0 +1,164 @@
+[
+ {
+  "internId": "arnab",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "sifat",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "hasif",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "tithi",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "ishrat",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "rifah",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "mostari",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "nadia",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "nusrat",
+  "dept": "Medicine",
+  "from": "2026-09-16",
+  "to": "2026-12-15"
+ },
+ {
+  "internId": "nazmus",
+  "dept": "Medicine",
+  "from": "2026-11-05",
+  "to": "2027-02-04"
+ },
+ {
+  "internId": "rafi",
+  "dept": "Medicine",
+  "from": "2026-11-05",
+  "to": "2027-02-04"
+ },
+ {
+  "internId": "putasti",
+  "dept": "Medicine",
+  "from": "2026-11-05",
+  "to": "2027-02-04"
+ },
+ {
+  "internId": "supom",
+  "dept": "Medicine",
+  "from": "2026-09-22",
+  "to": "2026-11-04"
+ },
+ {
+  "internId": "ripa",
+  "dept": "Medicine",
+  "from": "2026-09-22",
+  "to": "2026-11-04"
+ },
+ {
+  "internId": "nawing",
+  "dept": "Medicine",
+  "from": "2026-09-22",
+  "to": "2026-11-04"
+ },
+ {
+  "internId": "umay",
+  "dept": "Pedi",
+  "from": "2026-11-05",
+  "to": "2026-12-02"
+ },
+ {
+  "internId": "junantu",
+  "dept": "Pedi",
+  "from": "2026-12-03",
+  "to": "2026-12-30"
+ },
+ {
+  "internId": "rony",
+  "dept": "Pedi",
+  "from": "2026-12-31",
+  "to": "2027-01-27"
+ },
+ {
+  "internId": "tafhima",
+  "dept": "Pedi",
+  "from": "2026-09-16",
+  "to": "2026-10-13"
+ },
+ {
+  "internId": "mehraj",
+  "dept": "Pedi",
+  "from": "2026-09-16",
+  "to": "2026-10-13"
+ },
+ {
+  "internId": "boideshika",
+  "dept": "Pedi",
+  "from": "2026-09-16",
+  "to": "2026-10-13"
+ },
+ {
+  "internId": "mahi",
+  "dept": "Pedi",
+  "from": "2026-10-14",
+  "to": "2026-11-10"
+ },
+ {
+  "internId": "suma",
+  "dept": "Pedi",
+  "from": "2026-10-14",
+  "to": "2026-11-10"
+ },
+ {
+  "internId": "uhaimong",
+  "dept": "Pedi",
+  "from": "2026-10-14",
+  "to": "2026-11-10"
+ },
+ {
+  "internId": "rumi",
+  "dept": "Pedi",
+  "from": "2026-11-11",
+  "to": "2026-12-08"
+ },
+ {
+  "internId": "sneha",
+  "dept": "Pedi",
+  "from": "2026-11-11",
+  "to": "2026-12-08"
+ },
+ {
+  "internId": "sharmin",
+  "dept": "Pedi",
+  "from": "2026-11-11",
+  "to": "2026-12-08"
+ }
+]

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intern Duty Roster – Rangamati Medical College Hospital</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b5d4b;--bg:#f4f6f5;--bd:#d6dedb;--tx:#17211e;--mut:#5d6b66;--red:#c0264b;--amb:#b7791f}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 Inter,"Noto Sans Bengali",system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+header{background:var(--g);color:#fff;padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0;flex:1}
+nav{display:flex;gap:4px;flex-wrap:wrap;padding:8px 16px;background:#fff;border-bottom:1px solid var(--bd)}
+nav button,.btn{border:1px solid var(--bd);background:#fff;padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit}
+nav button.on,.btn.pri{background:var(--g);color:#fff;border-color:var(--g)}
+.btn.danger{color:var(--red);border-color:var(--red)}
+main{padding:16px;max-width:1200px;margin:auto}
+.card{background:#fff;border:1px solid var(--bd);border-radius:8px;padding:14px;margin-bottom:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:end;margin-bottom:8px}
+label{display:flex;flex-direction:column;font-size:12px;color:var(--mut);gap:3px}
+input,select,textarea{font:inherit;padding:5px 7px;border:1px solid var(--bd);border-radius:5px;background:#fff}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{border:1px solid var(--bd);padding:5px 8px;text-align:left;vertical-align:top}
+th{background:#eaf1ee;font-size:12px}
+td input,td select{width:100%}
+.scroll{overflow-x:auto}
+.warn{background:#fff7e6;border:1px solid #f0d49a;color:#7a5200;padding:8px 10px;border-radius:6px;margin:6px 0}
+.err{background:#fdecef;border:1px solid #f2b6c3;color:#8c1632;padding:8px 10px;border-radius:6px;margin:6px 0}
+.ok{background:#e8f6ef;border:1px solid #a7dcc3;color:#0b5d4b;padding:8px 10px;border-radius:6px;margin:6px 0}
+.mut{color:var(--mut);font-size:12px}
+.b6{font-size:10px;background:#efe6ff;color:#5b34a8;border-radius:8px;padding:0 5px;margin-left:4px}
+/* roster sheet */
+.sheet{background:#fff;border:1px solid var(--bd);padding:18px;margin-bottom:14px}
+.sheet-h{text-align:center;margin-bottom:10px}
+.hosp{font-weight:700;font-size:18px;color:var(--g)}.dept{font-size:12px;color:var(--mut)}
+.ttl{display:inline-block;background:var(--g);color:#fff;padding:5px 18px;border-radius:4px;margin:8px 0;font-weight:700}
+.per{font-size:12px}
+.sheet tr.fri td{background:#fdf0f2}.sheet .holiday{color:var(--red);font-style:italic}
+.sheet td div{white-space:nowrap}
+.sigs{display:flex;justify-content:space-between;margin-top:46px;gap:20px}
+.sigs div{flex:1;border-top:1px solid #333;text-align:center;font-size:11px;padding-top:4px}
+@media print{header,nav,.noprint,#tour{display:none!important}body{background:#fff}main{padding:0;max-width:none}.sheet{border:0;padding:0}@page{size:A4;margin:12mm}}
+/* guided tour */
+#tour .tour-catch{position:fixed;inset:0;z-index:1000}
+#tour.nohl .tour-catch{background:rgba(0,0,0,.55)}
+#tour .tour-hl{position:fixed;z-index:1001;border-radius:8px;box-shadow:0 0 0 9999px rgba(0,0,0,.55);outline:3px solid #ffd166;pointer-events:none;display:none}
+#tour .tour-box{position:fixed;left:50%;transform:translateX(-50%);width:min(540px,calc(100vw - 24px));z-index:1002;background:#fff;border-radius:10px;padding:14px 16px;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+#tour .tour-box.bot{bottom:14px}#tour .tour-box.top{top:14px}#tour .tour-box.mid{top:50%;transform:translate(-50%,-50%)}
+#tour h3{margin:2px 0 6px;font-size:16px;color:var(--g)}#tour .tour-n{font-size:11px;color:var(--mut)}
+#tour .tour-t{line-height:1.6}#tour .tour-b{display:flex;gap:8px;margin-top:12px}
+#tour button:disabled{opacity:.4;cursor:default}
+</style>
+</head>
+<body>
+<header><h1>🏥 Intern Duty Roster – Rangamati Medical College Hospital</h1><span id="mode"></span></header>
+<nav id="nav"></nav>
+<main id="app">Loading…</main>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
