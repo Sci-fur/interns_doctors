@@ -260,7 +260,7 @@
   "name": "Uhaimong Marma",
   "batch": 7,
   "group": "D",
-  "gender": "F",
+  "gender": "M",
   "genderConfirmed": true,
   "active": true
  },
@@ -434,14 +434,5 @@
   "gender": "M",
   "genderConfirmed": true,
   "active": true
- },
- {
-  "id": "imw3igpuw",
-  "name": "New Doctor",
-  "batch": 7,
-  "group": "A",
-  "gender": "",
-  "genderConfirmed": false,
-  "active": false
  }
 ]
