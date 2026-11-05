@@ -18,6 +18,16 @@ const S = { tab: 'rosters', rid: null, sheet: 'outdoor', admin: localStorage.get
 const PUBLIC = [['rosters', 'Rosters'], ['stats', 'Profiles & Fairness']];
 const ADMIN = [['generate', '➕ New Roster'], ['interns', 'Interns'], ['placements', 'Placements & Leave'], ['swap', 'Swap'], ['settings', 'Save / Settings']];
 
+const HEAD = {
+  rosters: ['Duty Rosters', 'View, switch and print the Outdoor, Indoor and Emergency sheets.'],
+  stats: ['Profiles & Fairness', 'Duty counts for every doctor across all saved rosters.'],
+  generate: ['Create a New Roster', 'Pick a period, auto-generate a conflict-free roster and save it.'],
+  interns: ['Interns', 'Verify names, batches, groups and gender before generating a roster.'],
+  placements: ['Placements & Leave', 'Departments, leave and carry-over nights used by the generator.'],
+  swap: ['Duty Swap', 'Exchange two duties without breaking any roster rule.'],
+  settings: ['Save / Settings', 'Push local changes to GitHub or download a backup JSON.'],
+};
+
 const META = {
   outdoor: { label: 'Outdoor', dept: 'DEPARTMENT OF MEDICINE • OUTPATIENT DEPARTMENT (মেডিসিন বহির্বিভাগ / OPD)', t: 'MEDICINE OUTDOOR DUTY ROSTER (মেডিসিন আউটডোর ডিউটি রোস্টার)', sub: 'সময়: সকাল ০৮:০০ – দুপুর ০২:০০ | কার্যদিবস: শনি – বৃহস্পতি (শুক্রবার বন্ধ)', sig: ['In-Charge (Medicine OPD)', 'Head of Department (Medicine)', 'Director / Superintendent'] },
   indoor: { label: 'Indoor', dept: 'DEPARTMENT OF MEDICINE — INDOOR / IN-PATIENT WARD (মেডিসিন ইনডোর বিভাগ)', t: 'MEDICINE INDOOR DUTY ROSTER (মেডিসিন ইনডোর ডিউটি রোস্টার)', sub: 'সকাল (M) ০৮:০০–১৪:০০ | সন্ধ্যা (E) ১৪:০০–২০:০০ | নাইট (N) ২০:০০–০৮:০০', sig: ['In-Charge (Medicine Indoor)', 'Head of Department (Medicine)', 'Resident Medical Officer (RMO)'] },
@@ -36,7 +46,7 @@ function sheet(r, kind) {
     else body = `<td>${cell(s.EE)}</td><td>${cell(s.EN)}</td>`;
     return `<tr class="${f ? 'fri' : ''}">${dt}${body}</tr>`;
   }).join('');
-  return `<div class="sheet"><div class="sheet-h"><div class="hosp">RANGAMATI MEDICAL COLLEGE HOSPITAL</div><div class="dept">${m.dept}</div><div class="ttl">${m.t}</div>
+  return `<div id="roster-output" class="sheet printable-area"><div class="sheet-h"><img class="sheet-logo" src="public/rangamati_medical_logo.png" alt="Rangamati Medical College logo"><div class="hosp">RANGAMATI MEDICAL COLLEGE HOSPITAL</div><div class="dept">${m.dept}</div><div class="ttl">${m.t}</div>
   <div class="per">Period: ${r.days.length} days, ${fmt(r.start)} – ${fmt(r.end)} &nbsp;|&nbsp; ${m.sub}</div></div>
   <div class="scroll"><table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>
   <div class="sigs">${m.sig.map(x => `<div>${x}<br>Rangamati Medical College Hospital</div>`).join('')}</div></div>`;
@@ -45,7 +55,7 @@ const sheetTabs = () => `<div class="noprint row">${Object.entries(META).map(([k
 
 const pages = {
   rosters() {
-    if (!db.rosters.length) return '<div class="card">No roster published yet.' + (S.admin ? ' Use “New Roster”.' : '') + '</div>';
+    if (!db.rosters.length) return `<div class="card empty-state"><img class="empty-logo" src="public/rangamati_medical_logo.png" alt="Rangamati Medical College logo"><h3>No roster published yet</h3><p>When an admin creates and saves a roster, it will appear here automatically.</p>${S.admin ? '<p class="mut">Open <b>New Roster</b> to generate the first one.</p>' : ''}</div>`;
     const list = [...db.rosters].sort((a, b) => b.start.localeCompare(a.start));
     const r = db.rosters.find(x => x.id === S.rid) || list[0];
     return `<div class="noprint row"><label>Roster<select data-b="rid">${opts(list.map(x => [x.id, `${x.name} (${fmt(x.start)} – ${fmt(x.end)})`]), r.id)}</select></label>
@@ -133,9 +143,10 @@ const pages = {
 function render() {
   const tabs = [...PUBLIC, ...(S.admin ? ADMIN : [])];
   $('#nav').innerHTML = tabs.map(([k, l]) => `<button class="${S.tab === k ? 'on' : ''}" data-act="tab" data-k="${k}">${l}</button>`).join('');
-  $('#mode').innerHTML = `<button class="btn" data-act="tour">❓ Guide</button> <button class="btn" data-act="admin">${S.admin ? 'Admin mode: ON' : 'Admin'}</button>`;
+  $('#mode').innerHTML = `<button class="btn" data-act="tour">❓ Guide</button> <button class="btn ${S.admin ? 'admin-on' : ''}" data-act="admin">${S.admin ? 'Admin mode: ON' : 'Admin'}</button>`;
   const n = dirty.size + deleted.size;
-  $('#app').innerHTML = (S.msg ? `<div class="${S.msg.startsWith('✔') ? 'ok' : 'err'} noprint">${esc(S.msg)}</div>` : '') + (S.admin && n ? `<div class="warn noprint">${n} unsaved change(s) – open “Save / Settings” to push them to GitHub.</div>` : '') + pages[S.tab]();
+  const h = HEAD[S.tab];
+  $('#app').innerHTML = (h ? `<div class="page-head noprint"><div><h2>${h[0]}</h2><p>${h[1]}</p></div></div>` : '') + (S.msg ? `<div class="${S.msg.startsWith('✔') ? 'ok' : 'err'} noprint">${esc(S.msg)}</div>` : '') + (S.admin && n ? `<div class="warn noprint">${n} unsaved change(s) – open “Save / Settings” to push them to GitHub.</div>` : '') + pages[S.tab]();
 }
 
 document.addEventListener('click', async e => {
