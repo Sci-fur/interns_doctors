@@ -1,0 +1,816 @@
+{
+ "id": "2026-11-09",
+ "name": "Roster 2026-11-09",
+ "start": "2026-11-09",
+ "end": "2026-12-08",
+ "days": [
+  {
+   "date": "2026-11-09",
+   "indoor": {
+    "M": [
+     "putasti"
+    ],
+    "E": [
+     "nusrat"
+    ],
+    "N": [
+     "ishrat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "rafatul",
+     "ripa"
+    ],
+    "N": [
+     "afroza",
+     "sharmin"
+    ]
+   },
+   "outdoor": [
+    "jarin"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "indoor": {
+    "M": [
+     "mostari"
+    ],
+    "E": [
+     "nazmus"
+    ],
+    "N": [
+     "hasif"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "boideshika",
+     "sneha"
+    ],
+    "N": [
+     "fatema",
+     "sidratul"
+    ]
+   },
+   "outdoor": [
+    "irtifa"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "indoor": {
+    "M": [
+     "sifat"
+    ],
+    "E": [
+     "arnab"
+    ],
+    "N": [
+     "rifah"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sumati",
+     "suma"
+    ],
+    "N": [
+     "sani",
+     "mehraj"
+    ]
+   },
+   "outdoor": [
+    "afroza"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "indoor": {
+    "M": [
+     "rafi"
+    ],
+    "E": [
+     "mostari"
+    ],
+    "N": [
+     "putasti"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "uhaimong",
+     "saima"
+    ],
+    "N": [
+     "tethe",
+     "tafhima"
+    ]
+   },
+   "outdoor": [
+    "sidratul"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "indoor": {
+    "M": [
+     "tithi",
+     "rafi"
+    ],
+    "E": [
+     "sifat"
+    ],
+    "N": [
+     "nadia"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "jarin",
+     "junantu"
+    ],
+    "N": [
+     "mahi",
+     "supom"
+    ]
+   },
+   "outdoor": []
+  },
+  {
+   "date": "2026-11-14",
+   "indoor": {
+    "M": [
+     "arnab"
+    ],
+    "E": [
+     "rafi"
+    ],
+    "N": [
+     "tithi"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "orpita",
+     "tamanna"
+    ],
+    "N": [
+     "rony",
+     "fearul"
+    ]
+   },
+   "outdoor": [
+    "nazmus"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "indoor": {
+    "M": [
+     "ishrat"
+    ],
+    "E": [
+     "rifah"
+    ],
+    "N": [
+     "mostari"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "arpita",
+     "tina"
+    ],
+    "N": [
+     "prangon",
+     "nawing"
+    ]
+   },
+   "outdoor": [
+    "mahi"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "indoor": {
+    "M": [
+     "nazmus"
+    ],
+    "E": [
+     "nusrat"
+    ],
+    "N": [
+     "arnab"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "irtifa",
+     "abir"
+    ],
+    "N": [
+     "sajjad",
+     "abidul"
+    ]
+   },
+   "outdoor": [
+    "rony"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "indoor": {
+    "M": [
+     "nadia"
+    ],
+    "E": [
+     "hasif"
+    ],
+    "N": [
+     "sifat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "nawing",
+     "fearul"
+    ],
+    "N": [
+     "farhana",
+     "saimaayub"
+    ]
+   },
+   "outdoor": [
+    "rifah"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "indoor": {
+    "M": [
+     "tithi"
+    ],
+    "E": [
+     "rafi"
+    ],
+    "N": [
+     "nazmus"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "mahi",
+     "boideshika"
+    ],
+    "N": [
+     "irtifa",
+     "tamanna"
+    ]
+   },
+   "outdoor": [
+    "supom"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "indoor": {
+    "M": [
+     "putasti"
+    ],
+    "E": [
+     "ishrat"
+    ],
+    "N": [
+     "nadia"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "farhana",
+     "afroza"
+    ],
+    "N": [
+     "abir",
+     "uhaimong"
+    ]
+   },
+   "outdoor": [
+    "ripa"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "indoor": {
+    "M": [
+     "nusrat",
+     "rifah"
+    ],
+    "E": [
+     "tithi"
+    ],
+    "N": [
+     "putasti"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sajjad",
+     "suma"
+    ],
+    "N": [
+     "sumati",
+     "tina"
+    ]
+   },
+   "outdoor": []
+  },
+  {
+   "date": "2026-11-21",
+   "indoor": {
+    "M": [
+     "hasif"
+    ],
+    "E": [
+     "sifat"
+    ],
+    "N": [
+     "rafi"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sani",
+     "tafhima"
+    ],
+    "N": [
+     "arpita",
+     "jarin"
+    ]
+   },
+   "outdoor": [
+    "junantu"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "indoor": {
+    "M": [
+     "nadia"
+    ],
+    "E": [
+     "nazmus"
+    ],
+    "N": [
+     "nusrat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "prangon",
+     "supom"
+    ],
+    "N": [
+     "rafatul",
+     "junantu"
+    ]
+   },
+   "outdoor": [
+    "sani"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "indoor": {
+    "M": [
+     "mostari"
+    ],
+    "E": [
+     "arnab"
+    ],
+    "N": [
+     "ishrat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "mehraj",
+     "tethe"
+    ],
+    "N": [
+     "saima",
+     "ripa"
+    ]
+   },
+   "outdoor": [
+    "rafi"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "indoor": {
+    "M": [
+     "rifah"
+    ],
+    "E": [
+     "nadia"
+    ],
+    "N": [
+     "hasif"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "saimaayub",
+     "rony"
+    ],
+    "N": [
+     "orpita",
+     "sidratul"
+    ]
+   },
+   "outdoor": [
+    "tethe"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "indoor": {
+    "M": [
+     "mostari"
+    ],
+    "E": [
+     "putasti"
+    ],
+    "N": [
+     "tithi"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "abidul",
+     "tina"
+    ],
+    "N": [
+     "fatema",
+     "boideshika"
+    ]
+   },
+   "outdoor": [
+    "sharmin"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "indoor": {
+    "M": [
+     "nusrat"
+    ],
+    "E": [
+     "mostari"
+    ],
+    "N": [
+     "rifah"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sidratul",
+     "junantu"
+    ],
+    "N": [
+     "arpita",
+     "suma"
+    ]
+   },
+   "outdoor": [
+    "putasti"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "indoor": {
+    "M": [
+     "ishrat",
+     "hasif"
+    ],
+    "E": [
+     "nazmus"
+    ],
+    "N": [
+     "arnab"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "farhana",
+     "rafatul"
+    ],
+    "N": [
+     "abir",
+     "rony"
+    ]
+   },
+   "outdoor": []
+  },
+  {
+   "date": "2026-11-28",
+   "indoor": {
+    "M": [
+     "rifah"
+    ],
+    "E": [
+     "tithi"
+    ],
+    "N": [
+     "nusrat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "tafhima",
+     "nawing"
+    ],
+    "N": [
+     "irtifa",
+     "ripa"
+    ]
+   },
+   "outdoor": [
+    "saima"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "indoor": {
+    "M": [
+     "sifat"
+    ],
+    "E": [
+     "nadia"
+    ],
+    "N": [
+     "mostari"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "mehraj",
+     "abidul"
+    ],
+    "N": [
+     "uhaimong",
+     "fearul"
+    ]
+   },
+   "outdoor": [
+    "tafhima"
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "indoor": {
+    "M": [
+     "hasif"
+    ],
+    "E": [
+     "ishrat"
+    ],
+    "N": [
+     "sifat"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "tethe",
+     "afroza"
+    ],
+    "N": [
+     "sumati",
+     "tamanna"
+    ]
+   },
+   "outdoor": [
+    "arpita"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "indoor": {
+    "M": [
+     "rifah"
+    ],
+    "E": [
+     "putasti"
+    ],
+    "N": [
+     "rafi"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "saima",
+     "orpita"
+    ],
+    "N": [
+     "sani",
+     "mahi"
+    ]
+   },
+   "outdoor": [
+    "uhaimong"
+   ]
+  },
+  {
+   "date": "2026-12-02",
+   "indoor": {
+    "M": [
+     "arnab"
+    ],
+    "E": [
+     "rifah"
+    ],
+    "N": [
+     "hasif"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "fatema",
+     "saimaayub"
+    ],
+    "N": [
+     "prangon",
+     "supom"
+    ]
+   },
+   "outdoor": [
+    "abidul"
+   ]
+  },
+  {
+   "date": "2026-12-03",
+   "indoor": {
+    "M": [
+     "tithi"
+    ],
+    "E": [
+     "sifat"
+    ],
+    "N": [
+     "nazmus"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sajjad",
+     "suma"
+    ],
+    "N": [
+     "jarin",
+     "umay"
+    ]
+   },
+   "outdoor": [
+    "mehraj"
+   ]
+  },
+  {
+   "date": "2026-12-04",
+   "indoor": {
+    "M": [
+     "arnab",
+     "nadia"
+    ],
+    "E": [
+     "rafi"
+    ],
+    "N": [
+     "mostari"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "arpita",
+     "sidratul"
+    ],
+    "N": [
+     "orpita",
+     "saima"
+    ]
+   },
+   "outdoor": []
+  },
+  {
+   "date": "2026-12-05",
+   "indoor": {
+    "M": [
+     "nusrat"
+    ],
+    "E": [
+     "tithi"
+    ],
+    "N": [
+     "putasti"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "saimaayub",
+     "sani"
+    ],
+    "N": [
+     "boideshika",
+     "umay"
+    ]
+   },
+   "outdoor": [
+    "nawing"
+   ]
+  },
+  {
+   "date": "2026-12-06",
+   "indoor": {
+    "M": [
+     "ishrat"
+    ],
+    "E": [
+     "hasif"
+    ],
+    "N": [
+     "nadia"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "afroza",
+     "tethe"
+    ],
+    "N": [
+     "farhana",
+     "tina"
+    ]
+   },
+   "outdoor": [
+    "rafatul"
+   ]
+  },
+  {
+   "date": "2026-12-07",
+   "indoor": {
+    "M": [
+     "ishrat"
+    ],
+    "E": [
+     "nusrat"
+    ],
+    "N": [
+     "arnab"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "sajjad",
+     "mahi"
+    ],
+    "N": [
+     "tafhima",
+     "umay"
+    ]
+   },
+   "outdoor": [
+    "orpita"
+   ]
+  },
+  {
+   "date": "2026-12-08",
+   "indoor": {
+    "M": [
+     "nazmus"
+    ],
+    "E": [
+     "ishrat"
+    ],
+    "N": [
+     "rifah"
+    ]
+   },
+   "emergency": {
+    "E": [
+     "rony",
+     "ripa"
+    ],
+    "N": [
+     "rafatul",
+     "mehraj"
+    ]
+   },
+   "outdoor": [
+    "fearul"
+   ]
+  }
+ ],
+ "warnings": [],
+ "violations": []
+}
