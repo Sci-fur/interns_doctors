@@ -5,7 +5,7 @@
   "batch": 7,
   "group": "A",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true,
   "mentor": true
  },
@@ -15,7 +15,7 @@
   "batch": 7,
   "group": "A",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -24,7 +24,7 @@
   "batch": 7,
   "group": "A",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -33,7 +33,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -42,7 +42,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -51,7 +51,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -60,7 +60,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -69,7 +69,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -78,7 +78,7 @@
   "batch": 7,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -87,7 +87,7 @@
   "batch": 7,
   "group": "B",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true,
   "mentor": true
  },
@@ -97,7 +97,7 @@
   "batch": 7,
   "group": "B",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -106,7 +106,7 @@
   "batch": 7,
   "group": "B",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -115,7 +115,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -124,7 +124,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -133,7 +133,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -142,7 +142,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -151,7 +151,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -160,7 +160,7 @@
   "batch": 7,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -169,7 +169,7 @@
   "batch": 7,
   "group": "C",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true,
   "mentor": true
  },
@@ -179,7 +179,7 @@
   "batch": 7,
   "group": "C",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -188,7 +188,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -197,7 +197,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -206,7 +206,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -215,7 +215,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -224,7 +224,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -233,7 +233,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -242,7 +242,7 @@
   "batch": 7,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -251,7 +251,7 @@
   "batch": 7,
   "group": "D",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true,
   "mentor": true
  },
@@ -260,8 +260,8 @@
   "name": "Uhaimong Marma",
   "batch": 7,
   "group": "D",
-  "gender": "",
-  "genderConfirmed": false,
+  "gender": "F",
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -270,7 +270,7 @@
   "batch": 7,
   "group": "D",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -279,7 +279,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -288,7 +288,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -297,7 +297,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -306,7 +306,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -315,7 +315,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -324,7 +324,7 @@
   "batch": 7,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -333,7 +333,7 @@
   "batch": 6,
   "group": "A",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -342,7 +342,7 @@
   "batch": 6,
   "group": "A",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -351,7 +351,7 @@
   "batch": 6,
   "group": "A",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -360,7 +360,7 @@
   "batch": 6,
   "group": "B",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -369,7 +369,7 @@
   "batch": 6,
   "group": "B",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -378,7 +378,7 @@
   "batch": 6,
   "group": "B",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -387,7 +387,7 @@
   "batch": 6,
   "group": "C",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -396,7 +396,7 @@
   "batch": 6,
   "group": "C",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -405,7 +405,7 @@
   "batch": 6,
   "group": "C",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -414,7 +414,7 @@
   "batch": 6,
   "group": "D",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -423,7 +423,7 @@
   "batch": 6,
   "group": "D",
   "gender": "F",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
  },
  {
@@ -432,7 +432,16 @@
   "batch": 6,
   "group": "D",
   "gender": "M",
-  "genderConfirmed": false,
+  "genderConfirmed": true,
   "active": true
+ },
+ {
+  "id": "imw3igpuw",
+  "name": "New Doctor",
+  "batch": 7,
+  "group": "A",
+  "gender": "",
+  "genderConfirmed": false,
+  "active": false
  }
 ]
